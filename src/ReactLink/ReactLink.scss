@@ -1,0 +1,9 @@
+.reactLink {
+  position: relative;
+
+  &::before {
+    content: "⚛";
+    position: absolute;
+    right: -2.5rem;
+  }
+}
